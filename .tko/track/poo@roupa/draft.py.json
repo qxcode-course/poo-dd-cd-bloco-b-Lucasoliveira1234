@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-13_15-38-50",
+            "content": "@@ -156,38 +156,8 @@\n G%22%5D%0A\n-        valor = valor.strip()%0A\n     \n@@ -376,17 +376,21 @@\n f main()\n-:\n+%0A    \n %0A    rou\n@@ -456,16 +456,8 @@\n ip()\n-.upper()\n %0A%0A  \n",
+            "lines": "32"
+        },
+        {
+            "label": "2025-10-13_15-51-08",
+            "content": "@@ -412,13 +412,8 @@\n ():%0A\n-    %0A\n     \n@@ -478,16 +478,24 @@\n .strip()\n+.upper()\n %0A%0A      \n",
+            "lines": "32"
+        },
+        {
+            "label": "2025-10-13_15-57-29",
+            "content": "@@ -652,37 +652,13 @@\n th(%22\n-PP%22, %22P%22, %22M%22, %22G%22, %22GG%22, %22XG\n+size \n %22):%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-10-13_16-02-12",
+            "content": "@@ -652,13 +652,37 @@\n th(%22\n-size \n+PP%22, %22P%22, %22M%22, %22G%22, %22GG%22, %22XG\n %22):%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-10-13_16-05-15",
+            "content": "class Roupa:\n    def __init__(self):\n        self.__tamanho = \"\"\n\n    def setTamanho(self, valor):\n        tamanhosValidos = [\"PP\", \"P\", \"M\", \"G\", \"GG\", \"XG\"]\n        valor = valor.strip()\n        if valor in tamanhosValidos:\n            self.__tamanho = valor\n        else:\n            print(f\"fail: Valor inv\u00e1lido, tente PP, P, M, G, GG, XG\")\n\n    def getTamanho(self):\n        return self.__tamanho\n\ndef main():\n    \n    roupa = Roupa()\n\n    while True:\n        comando = input().strip()\n\n        if comando == \"end\":\n            break\n        elif comando == \"show\":\n            print(f\"size: ({roupa.getTamanho()})\")\n        elif comando.startswith(\"size \"):\n            _, valor = comando.split(maxsplit=1)\n            roupa.setTamanho(valor)\n        else:\n            print(\"fail: comando inv\u00e1lido\")\n\nmain()",
+            "lines": "33"
+        }
+    ]
+}
