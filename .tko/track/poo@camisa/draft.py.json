@@ -32,7 +32,12 @@
         },
         {
             "label": "2025-10-13_14-45-03",
-            "content": "class Camisa:\n    def __init__(self):\n        self .__tamanho: str = \"\"\n\n    def getTamanho(self) -> str:\n        return self.__tamanho\n    \n    def setTamanho(self, valor: str):\n        tamanhosValidos = [\"PP\", \"P\", \"M\", \"G\", \"GG\", \"XG\"]\n        valor = valor.strip().upper()\n\n        if valor in tamanhosValidos:\n            self.__tamanho = valor\n            return True\n        else:\n            print(f\"Tamanho inv\u00e1lido!\")\n            return False\n        \ndef main():\n    roupa = Camisa()\n\n    while roupa.getTamanho() == \"\":\n        print(\"Digite seu tamanho de roupa\")\n        tamanho = input()\n        roupa.setTamanho(tamanho)\n\n        print(\"Parabens, voc\u00ea comprou uma roupa tamanho\", roupa.getTamanho())\n        break\nmain()",
+            "content": "@@ -171,17 +171,16 @@\n r: str):\n- \n %0A       \n@@ -604,19 +604,16 @@\n         \n-if \n roupa.se\n@@ -629,22 +629,18 @@\n tamanho)\n-:%0A    \n+%0A%0A\n         \n@@ -721,19 +721,14 @@\n     \n-    \n break%0A\n-%0A\n main\n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-10-14_01-18-33",
+            "content": "class Camisa:\n    def __init__(self):\n        self .__tamanho: str = \"\"\n\n    def getTamanho(self) -> str:\n        return self.__tamanho\n    \n    def setTamanho(self, valor: str): \n        tamanhosValidos = [\"PP\", \"P\", \"M\", \"G\", \"GG\", \"XG\"]\n        valor = valor.strip().upper()\n\n        if valor in tamanhosValidos:\n            self.__tamanho = valor\n            return True\n        else:\n            print(f\"Tamanho inv\u00e1lido!\")\n            return False\n        \ndef main():\n    roupa = Camisa()\n\n    while roupa.getTamanho() == \"\":\n        print(\"Digite seu tamanho de roupa\")\n        tamanho = input()\n        if roupa.setTamanho(tamanho):\n            print(\"Parabens, voc\u00ea comprou uma roupa tamanho\", roupa.getTamanho())\n            break\n\nmain()",
             "lines": "29"
         }
     ]

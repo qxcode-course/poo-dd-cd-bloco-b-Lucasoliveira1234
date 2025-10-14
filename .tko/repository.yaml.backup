@@ -8,7 +8,7 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: /workspaces/poo-dd-cd-bloco-b-Lucasoliveira1234/.tko/cache/poo.md
-  cache_timestamp: '2025-10-13 16:00:24'
+  cache_timestamp: '2025-10-14 00:59:35'
   filters: null
 expanded:
 - poo@campanha-principal
