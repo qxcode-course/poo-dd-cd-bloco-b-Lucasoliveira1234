@@ -1,0 +1,67 @@
+2025-10-20 18:36:41, SELF, v:1, k:poo@chinela, rate:80
+2025-10-20 18:36:44, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-20 18:36:45, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:29
+2025-10-20 18:36:47, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-20 18:36:48, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-20 18:36:50, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-20 18:36:51, EXEC, v:1, k:poo@chinela, mode:FREE
+2025-10-20 18:37:10, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-20 18:37:57, SELF, v:1, k:poo@chinela, rate:90, alone:8, study:60
+2025-10-20 18:38:09, SELF, v:1, k:poo@camisa, rate:10
+2025-10-20 18:38:15, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-20 18:38:17, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0
+2025-10-20 18:38:21, MOVE, v:1, k:poo@camisa, mode:BACK
+2025-10-20 18:39:18, SELF, v:1, k:poo@camisa, rate:90, human:monitor, guide:video, alone:7, study:90
+2025-10-20 18:39:48, SELF, v:1, k:poo@camisa, rate:90, human:monitor, guide:video, alone:8, study:90
+2025-10-20 18:39:56, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-20 18:39:57, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-20 18:40:17, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-20 18:40:22, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-20 18:40:23, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-20 18:40:54, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-20 18:40:55, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-20 18:41:06, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-20 18:41:58, SELF, v:1, k:poo@roupa, human:monitor, alone:9, study:100
+2025-10-20 18:44:29, SELF, v:1, k:poo@relogio, human:amigo, iagen:gpt, alone:5
+2025-10-20 18:46:11, SELF, v:1, k:poo@relogio, human:amigo, iagen:gpt, alone:5, study:120
+2025-10-20 18:47:09, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-20 18:47:11, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-20 18:47:24, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-20 18:48:15, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-20 18:48:16, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-20 18:51:02, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100, size:34
+2025-10-20 18:51:10, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-20 18:51:12, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-20 18:51:13, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100
+2025-10-20 18:51:14, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-20 18:51:42, SELF, v:1, k:poo@roupa, rate:100, human:monitor, alone:9, study:100
+2025-10-20 18:51:42, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-20 18:51:44, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100
+2025-10-20 18:51:45, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100
+2025-10-20 18:51:56, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-20 18:52:02, MOVE, v:1, k:poo@relogio, mode:PICK
+2025-10-20 18:52:04, EXEC, v:1, k:poo@relogio, mode:FULL, rate:38
+2025-10-20 18:54:02, EXEC, v:1, k:poo@relogio, mode:FULL, rate:38
+2025-10-20 18:55:38, EXEC, v:1, k:poo@relogio, mode:FULL, rate:46
+2025-10-20 18:56:59, EXEC, v:1, k:poo@relogio, mode:FULL, rate:84, size:80
+2025-10-20 19:02:34, EXEC, v:1, k:poo@relogio, mode:FULL, rate:100, size:80
+2025-10-20 19:03:53, SELF, v:1, k:poo@chinela
+2025-10-20 19:05:33, SELF, v:1, k:poo@chinela, rate:100, human:amigo, alone:8, study:60
+2025-10-20 19:06:38, SELF, v:1, k:poo@camisa, rate:100, human:monitor, guide:video, alone:8, study:90
+2025-10-20 19:06:58, SELF, v:1, k:poo@roupa
+2025-10-20 19:07:00, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-20 19:07:01, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100
+2025-10-20 19:07:02, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100
+2025-10-20 19:07:03, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100
+2025-10-20 19:07:04, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100
+2025-10-20 19:07:07, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-20 19:09:02, SELF, v:1, k:poo@roupa, rate:100, iagen:gpt, alone:7, study:90
+2025-10-20 19:09:08, MOVE, v:1, k:poo@relogio, mode:PICK
+2025-10-20 19:09:09, EXEC, v:1, k:poo@relogio, mode:FULL, rate:100
+2025-10-20 19:09:11, MOVE, v:1, k:poo@relogio, mode:BACK
+2025-10-20 19:10:00, SELF, v:1, k:poo@relogio, rate:100, human:os_dois, iagen:gpt, guide:aula, alone:6, study:120
+2025-10-20 19:10:06, MOVE, v:1, k:poo@relogio, mode:PICK
+2025-10-20 19:10:07, EXEC, v:1, k:poo@relogio, mode:FULL, rate:100
+2025-10-20 19:10:13, MOVE, v:1, k:poo@relogio, mode:BACK
+2025-10-20 19:10:27, MOVE, v:1, k:poo@motoca, mode:DOWN
+2025-10-20 19:32:46, MOVE, v:1, k:poo@relogio, mode:PICK

@@ -27,7 +27,12 @@
         },
         {
             "label": "2025-10-07_19-56-28",
-            "content": "class Chinela:\n    def __init__(self):\n        self.__tamanho = 0\n\n    def getTamanho(self):\n        return self.__tamanho\n\n    def setTamanho(self, valor: int):\n        if valor % 2 == 0 and 20 <= valor <= 50:\n            self.__tamanho = valor\n            return True\n        else:\n            return False\n\ndef main():\n    chinela = Chinela()\n\n    while chinela.getTamanho == 0:\n        tamanho:int = int(input(\"Digite um tamanho v\u00e1lido\"))\n\n        if chinela.setTamanho(tamanho):\n            print(\"Tamanho\", chinela.getTamanho(), \"Registrado com sucesso\")\n            break\n\n        else:\n            print(\"Valor inv\u00e1lido! O tamanho deve ser PAR entre 20 e 50.\")\n\nmain()\n\n",
+            "content": "@@ -368,18 +368,16 @@\n tTamanho\n-()\n  == 0:%0A \n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-10-20_18-36-45",
+            "content": "class Chinela:\n    def __init__(self):\n        self.__tamanho = 0\n\n    def getTamanho(self):\n        return self.__tamanho\n\n    def setTamanho(self, valor: int):\n        if valor % 2 == 0 and 20 <= valor <= 50:\n            self.__tamanho = valor\n            return True\n        else:\n            return False\n\ndef main():\n    chinela = Chinela()\n\n    while chinela.getTamanho() == 0:\n        tamanho:int = int(input(\"Digite um tamanho v\u00e1lido\"))\n\n        if chinela.setTamanho(tamanho):\n            print(\"Tamanho\", chinela.getTamanho(), \"Registrado com sucesso\")\n            break\n\n        else:\n            print(\"Valor inv\u00e1lido! O tamanho deve ser PAR entre 20 e 50.\")\n\nmain()\n\n",
             "lines": "29"
         }
     ]

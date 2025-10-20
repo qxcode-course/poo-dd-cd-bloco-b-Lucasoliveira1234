@@ -41,9 +41,9 @@ class Watch:
         self.__segundo+=1
         if self.__segundo > 59:
             self.__segundo = 0
-            self.get__minuto += 1
-            if self.get__minuto > 59:
-                self.get__minuto = 0
+            self.__minuto += 1
+            if self.__minuto > 59:
+                self.__minuto = 0
                 self.__hora += 1
                 if self.__hora > 23:
                     self.__hora = 0
@@ -53,11 +53,8 @@ def main():
     while True:
         try:
             raw = input()
-            if raw is None or raw.strip() == "":
-                continue
-            line = raw.strip()
-            print(f"${line}")
-            parts = line.split()
+            print(f"${raw}")
+            parts = raw.split()
             
             if parts[0] == "end":
                 break
